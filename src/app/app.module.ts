@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TensorComponent } from './tensor/tensor.component';
+import { MagentaComponent } from './magenta/magenta.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TensorComponent,
+    MagentaComponent
   ],
   imports: [
     BrowserModule,
